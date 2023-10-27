@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    height: 60px;
+}
+
+header .navbar{
+    background-color: #343A40;
+
+}
+
+.navbar .navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0 16px;
+    gap: 16px;
+}
+
+.navbar-container .nav-item a:hover{
+    color: #fff !important;
+}
+
+ .navbar-container .active .nav-link{
+    color: #fff !important;
+} 
+
+.f-wrap{
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.input {
+    width: 320px;
+    height: 32px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+button{
+    width: 160px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+.ord {
+    width: 320px;
+    margin: 10px 0 10px 0;
+}
+
+.resultado {
+    margin: 16px;
+}
+
+li {
+    list-style: circle;
+    margin-left: 15px;
+}
